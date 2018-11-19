@@ -174,7 +174,6 @@ for event in range(NEvents):
 			continue
 		efficiency_increased_modules.append(MODULE)
 		h2_occupancy_hit[MODULE].Fill(impactX, impactY)
-		break
 
 #end of event loop
 
